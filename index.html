@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego - Landing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="page">
+        <!-- Main content -->
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="Logo de Lego">
+                    <ul>
+                        <li><a href="/"></a>Exclusivos</li>
+                        <li><a href="/"></a>Nuevos</li>
+                        <li><a href="/"></a>Gift cards</li>
+                        <li><a href="/"></a>Find a Store</li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section class="main-content">
+                <p>Diseña tu</p>
+                <h1>¡Super Heroe!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolore nesciunt voluptate est et rem
+                    aliquid quia sed mollitia voluptatum, corrupti minus nobis laborum porro officia animi harum eos
+                    provident</p>
+            </section>
+
+            <section class="side-content">
+                <div></div>
+                <p>Superman</p>
+                <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="Imagen deSuperman">
+            </section>
+
+            <footer class="footer">
+                <div id="button1">
+                    <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="Imagen de Spiderman">
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="Imagen de Robin">
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/M18p91c/batman.webp" alt="Imagen de Batman">
+                </div>
+            </footer>
+        </section>
+
+        <!-- Loader -->
+        <section class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+        <!-- Modal -->
+        <section class="modal hidden">
+            <div class="modal-content">
+                <img class="modal__close" src="https://img.icons8.com/ios/1x/close-window.png" alt="Icono de cerrar">
+                <div class="modal__slider">
+                    <input type="radio" name="slider-1" id="radio-1" checked>
+                    <input type="radio" name="slider-1" id="radio-2">
+                    <input type="radio" name="slider-1" id="radio-3">
+
+
+                    <div class="cards">
+                        <label for="radio-1" class="card" id="card-1">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png" alt="">
+                        </label>    
+                        <label for="radio-2" class="card" id="card-2">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png" alt="">
+                        </label>    
+                        <label for="radio-3" class="card" id="card-3">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png" alt="">
+                        </label>    
+                    </div>
+                </div>
+                <button class="modal__button">
+                    ¡Lo quiero!
+                </button>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+<script src="./app.js"></script>
+
+</html>
